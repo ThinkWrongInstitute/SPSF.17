@@ -499,7 +499,7 @@ pre code {
 
 /*=== 1.2 Animations ================
 Just 5 basic animations:
-.fadeIn, .fadeInUp, .zoomIn, .slideInLeft, slideInRight  
+.fadeIn, .fadeInUp, .zoomIn, .slideInLeft, slideInRight
 https://github.com/daneden/animate.css*/
 
 /*-- fadeIn -- */
@@ -908,6 +908,8 @@ h1 span {
 h2 {
   font-size: 3.2rem;
   line-height: 4.8rem;
+  font-family: 'Carter One', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 h3 {
@@ -1259,6 +1261,7 @@ section footer {
 /*desktop only? Add @media (min-width: 1025px)*/
 header[role=banner] {
   opacity: 0;
+  display: none;
 }
 /*=== Show Header[role=banner] === */
 header[role=banner]:hover {
@@ -1269,6 +1272,13 @@ header[role=banner]:hover {
   footer .alignleft, footer .alignright {
     float: none;
     display: block;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  footer .alignright {
+    margin-top: -20px;
+    text-align: center;
   }
 }
 
