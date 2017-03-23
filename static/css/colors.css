@@ -52,24 +52,26 @@ svg {
 
 [class*="bg-"] a,
 [class*="bg-gradient-"] a {
-  color: #bce;
+  color: #EB008B;
 }
 .bg-brown a {color: #c23;}
 
 a,
 .bg-white a,
 .bg-light a,.bg-gradient-white a {
-  color: #44d;
+  color: #EB008B;
 }
 
 a:hover {
   color: #3af;
 }
+
 .flexblock li>a,[class*="bg-"] li>a,
 [class*="bg-gradient-"] li>a,
 article header a {
   color: inherit;
 }
+
 
 hr {
   background: rgba(0, 20, 80, 0.2);
@@ -142,7 +144,7 @@ Slides - Backgrounds <section class="bg-primary">
 /*General Colors*/
 
 .bg-black {
-  
+
   background-color: #111;
 }
 .bg-black-blue {
@@ -513,7 +515,7 @@ Gallery li+.overlay+image
 }
 
 .gallery li figcaption {
-  background-color: #fff;
+  background-color: #161616;
 }
 
 .flexblock.gallery li:hover {
@@ -532,7 +534,7 @@ Gallery li+.overlay+image
 
 .gallery li figcaption:before {
   border: .8rem solid black;
-  border-color: transparent transparent #fff #fff;
+  border-color: transparent transparent #161616 #161616;
   /*box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);*/
 }
 
@@ -895,7 +897,7 @@ Slides (Counter/Arrows)
 */
 #counter,
 #navigation a {
-  color: #abc;
+  color: #808184;
 }
 
 #webslides:hover #navigation a:hover {
