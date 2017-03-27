@@ -3,22 +3,16 @@
 Education is what is remained after you have forgotten what you learned in school. We believe that there is a more effective and fun way to embark onto the journey of life-long learning and prepare ourselves for the unpredictable future. This would be an opportunity for us and for you to experience different aspects of the world while creating an influential and exciting project to execute together.
 
 
-## Features
+## Overview
+#### 概述
 
-- Navigation (horizontal and vertical sliding): remote presenters, touchpad, keyboard shortcuts, and swipe.
+- [Application](docs/click-to-nav.md)
 - Slide counter.
-- Permalinks: go to a specific slide.
-- Autoslide.
-- Click to nav. [Read more](docs/click-to-nav.md)!
-- Simple CSS alignments. Put content wherever you want (vertical centering...)
-- 40+ components: background images/videos, quotes, cards, covers...
-- Flexible blocks with auto-fill and equal height.
-- Fonts: Roboto, Maitree (Serif), and San Francisco.
-- Vertical rhythm (use multiples of 8).
+
 
 
 ## Directory Structure
-####目錄結構
+#### 目錄結構
 
 The download includes demos and images (devices and logos).
 All content is for demo purposes only. Images are property of their respective owners.
@@ -26,23 +20,29 @@ All content is for demo purposes only. Images are property of their respective o
 ```
 webslides/
 ├── index.html
-├── decks/
+├── decks/ (All presentation)
 │   ├── TBD
 │   └── TBD
 │   └── TBD
-├── documentation/
+├── documentation/ (Archive of all work)
 │   ├── TBD
 │   └── TBD (optional)
-└── static/
+└── static/ (All Site Assets)
+    ├── css
+    └── images
+    └── js
+    └── movies
 ```
 
 
 ## License
+#### 執照
 
-- All content unless other wise stared it published under the [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/).
+- All content unless otherwise stated is published under the [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/).
 - All content in ```└── decks/``` can not be used without permission form Think Wrong Institute
 
-### Credits
+## Credits
+#### 積分
 
 - [John Bielenberg](http://www.aiga.org/medalist-john-bielenberg)
 - [Weiwei Hsu](https://weiweihsu.com)
